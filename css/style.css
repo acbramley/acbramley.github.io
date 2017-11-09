@@ -33,8 +33,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 a {color: #212124; }
-a:hover {color:#ef5d00; text-decoration: none;}
-a:hover, a:focus {text-decoration: none; outline: none;}
+a:hover {text-decoration: none;}
 #wrap {
   background-attachment: fixed;
   background-position: 50% 0%;
@@ -116,9 +115,24 @@ position: relative;
   color: #ef5d00;
   text-decoration: none;
 }
-.footer a:hover {
-  color: #999;
+
+a:hover {
+    text-decoration: underline;
 }
+#nav li {
+    list-style:none; display: inline-block; margin: 0px 5px;
+}
+#nav li a {
+    text-decoration: underline;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#nav li a:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
 /*----------Here is Detail Style----------*/
 .user-main > .usersite-wrap > .usersite-container {
   z-index: 2;
@@ -139,9 +153,7 @@ position: relative;
   font-size: 30px;
   bottom: -20px;
 }
-.user-main > .usersite-wrap > .usersite-container .usersite-header #nav li {list-style:none; display: inline-block; margin: 0px 5px;}
-.user-main > .usersite-wrap > .usersite-container .usersite-header #nav li a {color:#bbbbbb; font-weight: bold;}
-.user-main > .usersite-wrap > .usersite-container .usersite-header #nav li a:hover {color:#ef5d00; }
+
 .user-main > .usersite-wrap > .usersite-container .usersite-header .subtit a {
   color: #8b8684;
   position: relative;
@@ -149,11 +161,9 @@ position: relative;
   padding-left: 20px;
   text-decoration: none;
 }
-.user-main > .usersite-wrap > .usersite-container .usersite-header a:hover {
-  color: #cccccc;
-  text-decoration: none;
+.user-main > .usersite-wrap > .usersite-container .usersite-header .tit {
+    color:#ffffff;
 }
-.user-main > .usersite-wrap > .usersite-container .usersite-header .tit {color:#ffffff;}
 .user-main > .usersite-wrap > .usersite-container .usersite-header .subtit a:before {
   position: absolute;
   left: 0;
@@ -398,7 +408,6 @@ filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
 .rightside-panel ul, .rightside-panel ul li {list-style-type:none; margin:0px;}
 .rightside-panel ul li {border-bottom: 1px solid #f0f0f0; padding: 12px 0;}
 .rightside-panel ul li a {border-left:3px solid #ef5d00; padding-left: 10px; color: #666666; font-weight: 600}
-.rightside-panel ul li a:hover {color: #ef5d00;}
 /*--------------- add css --------------------*/
 .vcard-panel .btn {text-align:left; margin:3px 0px;}
 .vcard-panel .btn-block {padding:4px 12px;}
@@ -441,7 +450,6 @@ filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
 .share_box {display: none;}
 .playlist-panel .entry .info h2 {border-bottom: 1px solid #e7e7e7; position: relative; line-height: 23px; padding-bottom: 10px;}
 .playlist-panel .entry .info h2 a, .playlist-panel .entry .info h2 {font-size:20px; color: #606060; font-family: 'Roboto' , sans-serif;}
-.playlist-panel .entry .info h2 a:hover {color: #ef5d00; }
 .icons-btn {margin:20px 0px;}
 .play-times {float:right; position:relative;}
 .buttons-btn a {margin:5px 0px;}
@@ -488,7 +496,6 @@ filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
 .rightside-panel ul.list li a {border-left: none; padding-left: 0px;}
 
 .rightside-panel ul.list li a.follow {color: #ef5d00}
-.rightside-panel ul.list li a.follow:hover {color: #888888;}
 .users-block {
 width: 200px;
 margin: 0px auto 20px;

@@ -183,7 +183,7 @@ hr.block {
 	padding: 0;
 }
 
-#profilebottomaction a:link, #profilebottomaction a:visited, #profilebottomaction a:active, #profilebottomaction a:hover { 
+#profilebottomaction a:link, #profilebottomaction a:visited, #profilebottomaction a:active, #profilebottomaction a:hover {
 	text-decoration: underline;
 	display: inline;
 	font-family: arial,helvetica,sans-serif;
@@ -253,7 +253,7 @@ hr.block {
        color:#1A1A1A;
        font-size:11px;
        margin:0 28px 5px 0;
-font-  family:Arial,  Helvetica, sans-serif;
+font-family:Arial,  Helvetica, sans-serif;
 }
 #new_comments .new_comment_meta strong a, #new_comments .new_comment_meta strong {
        font-size: 11px;
@@ -373,7 +373,7 @@ overflow: hidden;
 #profilebottomaction .btns-nomal a.pb-follow{ width: 100px; margin-right: 2px}
 #profilebottomaction .btns-nomal a.shares {width: 66px; margin-right: 2px}
 #profilebottomaction .btns-nomal a.RSSs {width: 30px}
-#profilebottomaction .btns-nomal a:hover, #profilebottomaction .btns-nomal a.followed {background: #333333 !important; border: 1px solid #333333; color: #ffffff; } 
+#profilebottomaction .btns-nomal a:hover, #profilebottomaction .btns-nomal a.followed {background: #333333 !important; border: 1px solid #333333; color: #ffffff; }
 .show_block {width: 200px; margin-top: 10px; margin-bottom: 10px; overflow: hidden;}
 
 .show_visits, .BlogEpisodeCount {float: left; width: 95px}
@@ -389,6 +389,6 @@ display: block;
 
 .app-btn-fixed-height {height: 55px;}
 .app-btn-fixed-bottom {background-color: #27a154; z-index: 9999; padding: 18px 5px; position: fixed; left: 0; bottom: 0; width: 100%; text-align: center;}
-.app-btn-fixed-bottom a {color: #ffffff !important; font-weight: normal; font-size: 15px} 
+.app-btn-fixed-bottom a {color: #ffffff !important; font-weight: normal; font-size: 15px}
 
 .sidebar-tit {display: none;}
