@@ -530,6 +530,11 @@ margin: 0px auto 20px;
     color: inherit;
 }
 
+:link:focus {
+    text-decoration: none;
+    outline: 2px solid #a6a6a6;
+}
+
 @media only screen and (min-width: 1600px) {
 }
 @media only screen and (min-width: 1200px) {
