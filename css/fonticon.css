@@ -1,0 +1,154 @@
+@font-face {
+	font-family: 'fonticon';
+	src:url('FontIcon/fonts/fonticon.eot');
+	src:url('FontIcon/fonts/fonticon.eot?#iefix') format('embedded-opentype'),
+		url('FontIcon/fonts/fonticon.woff') format('woff'),
+		url('FontIcon/fonts/fonticon.ttf') format('truetype'),
+		url('FontIcon/fonts/fonticon.svg#fonticon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-iconpd]:before {
+	font-family: 'fonticon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.iconpd-podcast, .iconpd-export, .iconpd-dollar2, .iconpd-mobile, .iconpd-rss, .iconpd-play, .iconpd-play-2, .iconpd-download, .iconpd-clock, .iconpd-time, .iconpd-users, .iconpd-user, .iconpd-users-2, .iconpd-user-2, .iconpd-user-add, .iconpd-stats-up, .iconpd-locked, .iconpd-lock, .iconpd-code, .iconpd-facebook, .iconpd-twitter, .iconpd-gplus, .iconpd-comments-alt, .iconpd-cloud-upload, .iconpd-upload, .iconpd-pencil,.iconpd-exit  {
+	font-family: 'fonticon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.iconpd-podcast:before {
+	content: "\f1a2";
+}
+.iconpd-export:before {
+	content: "\e000";
+}
+.iconpd-dollar2:before {
+	content: "\f259";
+}
+.iconpd-mobile:before {
+	content: "\e001";
+}
+.iconpd-rss:before {
+	content: "\f17b";
+}
+.iconpd-play:before {
+	content: "\f184";
+}
+.iconpd-play-2:before { 
+	content: "\e002";
+}
+.iconpd-download:before {
+	content: "\f11a";
+}
+.iconpd-clock:before {
+	content: "\e005";
+}
+.iconpd-time:before {
+	content: "\f017";
+}
+.iconpd-users:before {
+	content: "\e029";
+}
+.iconpd-user:before {
+	content: "\e028";
+}
+.iconpd-users-2:before {
+	content: "\e008";
+}
+.iconpd-user-2:before {
+	content: "\e009";
+}
+.iconpd-user-add:before {
+	content: "\e00a";
+}
+.iconpd-stats-up:before {
+	content: "\e00b";
+}
+.iconpd-locked:before {
+	content: "\e00c";
+}
+.iconpd-lock:before {
+	content: "\f023";
+}
+.iconpd-code:before {
+	content: "\e00d";
+}
+.iconpd-facebook:before {
+	content: "\e003";
+}
+.iconpd-twitter:before {
+	content: "\e004";
+}
+.iconpd-gplus:before {
+	content: "\e006";
+}
+.iconpd-comments-alt:before {
+	content: "\f0e6";
+}
+.iconpd-cloud-upload:before {
+	content: "\f0ee";
+}
+.iconpd-upload:before {
+	content: "\f11b";
+}
+.iconpd-pencil:before {
+	content: "\f040";
+}
+.iconpd-exit:before {
+	content: "\e00e";
+}
+.iconpd-menu:before {
+	content: "\e600";
+}
+
+
+.post_toolbar_download:before, .post_toolbar_comment:before, .post_toolbar_hits:before, .post_toolbar_embed:before, .post_toolbar_share:before  {
+	font-family: 'fonticon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.post_toolbar_download:before {
+	content: "\f11a";
+}
+
+.post_toolbar_share:before {
+	content: "\e000";
+}
+
+.post_toolbar_comment:before {
+	content: "\f0e6";
+}
+
+.post_toolbar_embed:before {
+	content: "\e00d";
+}
+
+.post_toolbar_hits:before { 
+	content: "\e002";
+}

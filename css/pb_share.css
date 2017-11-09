@@ -1,0 +1,342 @@
+#shareModal .radio, .checkbox {
+    min-height: 20px;
+}
+#shareModal p{
+  margin: 0.6em 0;
+}
+#shareModal .share-content .preview-code p{
+  color: #555;
+}
+#shareModal .share-content .preview-code .iframe-code,#shareModal .share-content .preview-code .wp-code{
+  width: 72%;
+}
+#shareModal .share-content .preview-code span{
+  font-size:12px;
+  color: #000000;
+  font-family: open sans;
+}
+#shareModal .share-content .preview-code span input{ margin:0px; vertical-align: middle; }
+#shareModal label {
+    display: block;
+    margin-bottom: 5px;
+}
+#shareModal label, input, button, select, textarea {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+#shareModal label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
+    cursor: pointer;
+    margin：0px;
+}
+#shareModal li{
+  list-style: none;
+}
+.nav-tabs{
+  margin-top: 0px;
+  display: flex;
+  margin-bottom: 0px;
+}
+.nav-tabs>li, .nav-pills>li {
+    float: left;
+}
+#shareModal button.close {
+     padding: 0; 
+     cursor: pointer; 
+     background: transparent; 
+     border: 0; 
+     -webkit-appearance: none; 
+}
+#shareModal .close {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .2;
+    filter: alpha(opacity=20);
+}
+#shareModal select, #shareModal textarea, #shareModal input[type="text"], #shareModal input[type="password"], #shareModal input[type="datetime"], #shareModal input[type="datetime-local"], #shareModal input[type="date"], #shareModal input[type="month"], #shareModal input[type="time"], #shareModal input[type="week"], #shareModal input[type="number"], #shareModal input[type="email"], #shareModal input[type="url"], #shareModal input[type="search"], #shareModal input[type="tel"], #shareModal input[type="color"], #shareModal .uneditable-input {
+    display: inline-block;
+    height: 20px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.nav-tabs>li>a {
+    display: flex;
+     padding-top: 8px; 
+     padding-bottom: 8px; 
+     line-height: 20px; 
+     border: 1px solid transparent; 
+     -webkit-border-radius: 4px 4px 0 0; 
+    -moz-border-radius: 4px 4px 0 0;
+     border-radius: 4px 4px 0 0; 
+}
+#shareModal .nav-tabs li a{ font-size: 24px;color: #000; font-family: open sans; }
+#shareModal .nav-tabs>.active>a, #shareModal .nav-tabs>.active>a:hover, #shareModal .nav-tabs>.active>a:focus{ 
+  color: #8fc31f;
+  font-weight: 600;
+  border:none; 
+  border-bottom: 1px solid #8fc31f;
+}
+.nav-tabs>li{ margin-bottom: 0px; }
+#shareModal .nav-tabs>li>a{ text-decoration: none; border:none;  margin-right: 50px; padding-right: 0px;  padding-left: 0px; }
+#shareModal .modal-body{ padding:0px; }
+#shareModal .nav-tabs{ border-bottom: none; }
+#shareModal .nav>li>a:hover, #shareModal .nav>li>a:focus{ background-color: transparent; }
+.modal{ border-radius: 0px; }
+
+#shareModal .addthis_toolbox{ padding:0; margin-top: 0px; float: none; text-align: left; }
+#shareModal .addthis_toolbox a span{ width: 32px !important; height: 32px !important; }
+#shareModal .addthis_toolbox a span svg{ width: 32px !important; height: 32px !important; }
+#shareModal .addthis_toolbox a{ padding-left: 0px; padding-right: 4px; }
+#shareModal .share-episode{ margin-top: 10px; text-align: left; }
+#shareModal input.link{border:1px solid #ccc; background: transparent; width: 100%; margin-bottom: 30px; height: 28px; font-family: open sans; }
+#shareModal .modal-body .nav-embed .audio{ width: 100px; height: 100px; background-color: #8fc31f; }
+#shareModal .modal-body .second .second-audio{  }
+#shareModal .embed-con .icon-play{     
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    width: 12px; 
+  }
+
+
+/*#shareModal .embed-con .tab-pane>.active>.icon-play, #shareModal .embed-con .tab-pane>.active>.icon-play:hover, #shareModal .embed-con .tab-pane>.active>.icon-play:focus{ 
+     transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+
+
+
+
+ } */
+
+
+
+
+
+
+#shareModal .embed-tab a img{ 
+   width: 100px;
+   height: 100px;
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   -o-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray; 
+   padding:0px;
+   border-top: none;
+   border-left: none; 
+ }
+#shareModal .embed-tab .nav-tabs>.active>a .logo{ 
+    width: 90px; 
+    height: 90px;  
+    -webkit-filter: none;
+    filter: none;
+    padding: 5px;
+
+ }
+#shareModal .embed-tab .nav-tabs>.active>a .play{ 
+    width:85%; 
+    height: auto;
+    -webkit-filter: none;
+    left: 6px;
+    bottom: 7px;
+    filter: none;
+}
+#shareModal .embed-tab .nav-tabs>.active>a, #shareModal .embed-tab .nav-tabs>.active>a:hover, #shareModal .embed-tab .nav-tabs>.active>a:focus{ 
+   border-radius: 0px;
+   padding: 0px;
+ 
+}
+#shareModal .embed .nav-tabs>li>a{ position: relative;  }
+#shareModal .embed .nav-tabs>li>a .play{ position: absolute; width: 90%; height: auto; bottom: 10px; left: 5px;}
+#shareModal .embed-tab .nav-tabs{ border-bottom: none; }
+#shareModal .embed .nav-tabs>li>a{ padding-top: 0px; }
+#shareModal .embed .nav-tabs>li>.second-audio{border-radius: 0px; width: 100px; height: 100px; background: #e4e4e4; }
+#shareModal .embed-tab .nav-tabs>.active>.second-audio{ 
+   width: 90px; 
+   height: 90px;  
+    border: 5px solid #8fc31f;
+  
+    filter: none;
+    background: #8fc31f;
+
+ }
+ #shareModal .embed .nav-tabs>li>a .second-logo{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 0px;
+ 
+ }
+  #shareModal .embed .nav-tabs>li>a .second-play{
+  position: absolute;
+  width: 33%;
+  height: auto;
+  left: 52px;
+  top: 7px;
+}
+#shareModal .embed .nav-tabs>li>a .second-bg{ 
+    background: #c9c9c9;
+    position: absolute;
+    width: 90px;
+    height: 45px;
+    left: 5px;
+    top: 5px;
+}
+#shareModal .embed-tab .nav-tabs>.active>a .second-play{ -webkit-filter: none; filter: none; }
+#shareModal .embed-tab .nav-tabs>.active>a .second-logo{ -webkit-filter: none; filter: none; }
+#shareModal .embed-tab .nav-tabs>.active>a .second-bg{top: 0px; left: 0px; }
+#shareModal .embed-tab .nav-tabs>li>a{ margin-right: 20px; padding-bottom: 0px;}
+
+#shareModal{ 
+  background: transparent; 
+  border: 0px; 
+  box-shadow: none;
+  width: 100%;
+  left: 0px;
+  margin-left: 0px;
+
+
+}
+#shareModal .share-pane{ background: #ffffff; padding: 15px 30px;}
+#shareModal .nav-embed{ background: #ffffff; padding:25px 30px; margin-bottom: 5px; }
+#shareModal .embed-con{ background: #ffffff; padding:15px 30px; text-align: left; }
+#shareModal .tab-share{     
+    background: #ffffff;
+    padding: 15px 30px 0px 30px;
+    border-bottom: 1px solid #e4e4e4;
+  }
+
+
+#shareModal .embed-input{background: transparent; border:1px solid #ccc; width: 72%; font-family: open sans; height: 30px; }
+#shareModal .option{ color: #000000;  font-weight: 600; margin-top: 10px; cursor: pointer;
+ }
+#shareModal .more-option{ color: #000000;  font-weight: 600; margin-top: 10px;  cursor: pointer;
+}
+#shareModal .video-option{ color: #000000;  font-weight: 600; margin-top: 10px;  cursor: pointer;
+}
+#shareModal .ul-skins{ padding-bottom: 10px; }
+#shareModal .ul-skins a{     
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    float: left;
+    display: block;
+    outline: none;
+    text-indent: -9999em; 
+    position: relative;
+  }
+#shareModal .ul-skins a.current:before{
+    border-width: 0px 4px 4px 0px;
+    border-style: solid;
+    border-color: #ffffff;
+    width: 5px;
+    height: 10px;
+    left: 50%;
+    top: 50%;
+    margin-top: -9px;
+    margin-left: -4px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    position: absolute;
+    content: "";
+}
+#shareModal .ul-skins p{ color: #000000; }
+.modal-backdrop{ background-color: rgba(242,242,242,.9) }
+
+
+
+#shareModal .tab-pane .code{ color: #000000; font-weight: 600; font-size: 16px; }
+#shareModal .tab-video{    
+    background: #ffffff;
+    padding: 25px 30px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+#shareModal .tab-video input.link{ margin-bottom: 20px; }
+#shareModal .video-radio .video-in{ margin-top: 12px; }
+#shareModal .ul-skins .size{ margin-top: 18px; }
+#shareModal .share-table{     
+    width: 550px;
+    margin-left: 445px;
+    margin-top: 76px;
+    height: auto;
+    margin-bottom: 50px; 
+  }
+
+#shareModal .modal-body{  max-height: none; }
+.modal-backdrop, .modal-backdrop.fade.in{ z-index: 999990; }
+#shareModal{ 
+  z-index:  999999;
+      position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    overflow-y: auto;
+    box-sizing: border-box;
+
+   
+
+   }
+#shareModal button.close{ 
+     font-size: 40px;
+    opacity: 0.7;
+    margin-top: 0px;
+    padding-left: 5px;
+   
+
+   }
+#shareModal .modal-header{ 
+    border-bottom: none;
+    position: fixed;
+    right: 25px;
+    z-index: 1000000;
+    top: 0px;
+    padding: 9px 15px 9px 5px;
+ 
+
+ }
+#shareModal .share-table .line{ margin-top: 37px; /*border-bottom: 1px solid #e4e4e4;*/ width: 100%; }
+#shareModal .share-content p{ text-align: left; font-size: 14px; color: #000000; font-family: open sans;}
+#shareModal .share-content .embed-con .function-box .checkbox{color: #000000; text-align: left; font-family: open sans; }
+#shareModal label{ font-family: open sans;color: #000000; }
+#shareModal .share-table .share-content .embed-con .tab-pane .link{ margin-bottom: 10px; width: 72%;}
+
+#shareModal .modal-body{ margin-bottom: 5%; }
+#shareModal input[type="text"], #shareModal input[type="email"], #shareModal input[type="password"], #shareModal textarea, #shareModal input[type="search"]{ background: transparent; border:1px solid #ccc; }
+#shareModal .share-table .share-content .tab-video .video-radio .other{ margin-top: -10px; }
+#shareModal .get{ color: #8fc31f; text-decoration: none; }
+#shareModal .get:hover{ color: #76a908;}
+#shareModal .modal-body .preview-code .iframe-code{ height: 28px; }
+
+
+@media (min-width: 768px) and (max-width: 979px) { 
+  #shareModal .share-table{ margin-left: 125px; }
+
+}
+
+@media (max-width: 767px) { 
+  #shareModal .share-table{ margin-left: 0px; width: 100%; margin-bottom: 100px;}
+  #shareModal .modal-header{ margin-bottom: 20px; padding-bottom: 20px; z-index: 1000000000;}
+  #shareModal button.close{ opacity: 0.9; padding:10px;}
+}

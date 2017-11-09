@@ -1,0 +1,52 @@
+.aplayer-panel {padding-left:55px;height:38px;overflow:hidden;position:relative;cursor:pointer;}
+.aplayer-panel iframe{position:absolute;top:0;left:0;}
+.aplayer-panel .aplayer-bg{color:#aaa;font-size:12px; padding-right:118px;height:38px;line-height:1;overflow:hidden;}
+.aplayer-panel .aplayer-bg span{width:100%;height:38px;line-height:38px;display:block;overflow:hidden;vertical-align:middle;position:relative;}
+.aplayer-panel .aplayer-bg span em{font-style:normal;font-weight:normal;color:#aaa;font-size:12px;position:absolute;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
+.aplayer-panel .aplayer-bg span em.f{left:0;}
+.aplayer-panel .aplayer-bg span em.l{right:0;}
+.aplayer-panel .aplayer-bg span span{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;width:100%;height:7px;padding:0 42px;position:absolute;top:50%;margin-top:-3.5px;}
+.aplayer-panel .aplayer-bg span span i{width:100%;display:block;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;height:6px;overflow:hidden;border-bottom:1px solid #fff;background-color:#ddd;}
+.aplayer-bg {background:url("../images/player_theme_vjs/all.png") no-repeat;}
+
+.aplayer-panel.theme1{background-position:5px 0;}
+.aplayer-panel.theme1 .aplayer-bg{background-position:right -40px;}
+
+.aplayer-panel.theme2{background-position:5px -77px;}
+.aplayer-panel.theme2 .aplayer-bg{background-position:right -117px;}
+
+.aplayer-panel.theme3{background-position:5px -154px;}
+.aplayer-panel.theme3 .aplayer-bg{background-position:right -194px;}
+
+.aplayer-panel.theme4{background-position:5px -231px;}
+.aplayer-panel.theme4 .aplayer-bg{background-position:right -271px;}
+
+.aplayer-panel.theme5{background-position:5px -308px;}
+.aplayer-panel.theme5 .aplayer-bg{background-position:right -348px;}
+
+.aplayer-panel.theme6{background-position:5px -385px;}
+.aplayer-panel.theme6 .aplayer-bg{background-position:right -425px;}
+
+.aplayer-panel.theme7{background-position:5px -462px;}
+.aplayer-panel.theme7 .aplayer-bg{background-position:right -502px;}
+
+.aplayer-panel.theme8{background-position:5px -539px;}
+.aplayer-panel.theme8 .aplayer-bg{background-position:right -579px;}
+
+.aplayer-panel.theme9{background-position:5px -616px;}
+.aplayer-panel.theme9 .aplayer-bg{background-position:right -656px;}
+
+.aplayer-panel.theme10{background-position:5px -693px;}
+.aplayer-panel.theme10 .aplayer-bg{background-position:right -733px;}
+
+.aplayer-panel.theme11{background-position:5px -770px;}
+.aplayer-panel.theme11 .aplayer-bg{background-position:right -810px;}
+
+.aplayer-panel.theme12{background-position:5px -847px;}
+.aplayer-panel.theme12 .aplayer-bg{background-position:right -887px;}
+
+.aplayer-panel.theme13{background-position:5px -924px;}
+.aplayer-panel.theme13 .aplayer-bg{background-position:right -964px;}
+
+
+
