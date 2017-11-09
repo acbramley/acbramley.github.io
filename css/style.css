@@ -16,6 +16,22 @@ color: #888888;
 font-family: 'Open Sans', sans-serif;
 }
 
+.info p {
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-size: 11pt;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    background-color: transparent;
+}
+
 a {color: #212124; }
 a:hover {color:#ef5d00; text-decoration: none;}
 a:hover, a:focus {text-decoration: none; outline: none;}
@@ -137,7 +153,7 @@ position: relative;
   color: #cccccc;
   text-decoration: none;
 }
-.user-main > .usersite-wrap > .usersite-container .usersite-header .tit a {color:#ffffff;}
+.user-main > .usersite-wrap > .usersite-container .usersite-header .tit {color:#ffffff;}
 .user-main > .usersite-wrap > .usersite-container .usersite-header .subtit a:before {
   position: absolute;
   left: 0;
@@ -426,7 +442,6 @@ filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
 .playlist-panel .entry .info h2 {border-bottom: 1px solid #e7e7e7; position: relative; line-height: 23px; padding-bottom: 10px;}
 .playlist-panel .entry .info h2 a, .playlist-panel .entry .info h2 {font-size:20px; color: #606060; font-family: 'Roboto' , sans-serif;}
 .playlist-panel .entry .info h2 a:hover {color: #ef5d00; }
-.playlist-panel .entry .info p {line-height: 1.6;}
 .icons-btn {margin:20px 0px;}
 .play-times {float:right; position:relative;}
 .buttons-btn a {margin:5px 0px;}
@@ -485,6 +500,35 @@ margin: 0px auto 20px;
 .page-nav-name{display:none;}
 .page-nav-outer{display:none;}
 
+.visually-hidden {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    color: color(grey-mid);
+    background-color: color('white');
+}
+
+.visually-hidden.focusable {
+    position: absolute!important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px,1px,1px,1px);
+    color: #333;
+    background-color: #fff;
+}
+
+.visually-hidden.focusable:focus {
+    position: static !important;
+    clip: auto;
+    height: auto;
+    width: auto;
+    overflow: auto;
+    background-color: transparent;
+    color: inherit;
+}
 
 @media only screen and (min-width: 1600px) {
 }
