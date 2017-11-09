@@ -36,14 +36,14 @@
 	content: "\e604";
 }
 .pbicon-search:before {
-	content: "\e605";
+	content: "\e986";
 }
 .pbicon-export:before {
 	content: "\e603";
 }
-.pbicon-search:before{
+/*.pbicon-search:before{
 	content:"\e00d";
-}
+}*/
 .pbicon-plus-sign:before{
 	content:"\e02f";
 }
