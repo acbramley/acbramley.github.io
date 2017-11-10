@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'fonticon';
-	src:url('FontIcon/fonts/fonticon.eot');
-	src:url('FontIcon/fonts/fonticon.eot?#iefix') format('embedded-opentype'),
-		url('FontIcon/fonts/fonticon.woff') format('woff'),
-		url('FontIcon/fonts/fonticon.ttf') format('truetype'),
-		url('FontIcon/fonts/fonticon.svg#fonticon') format('svg');
+	src:url('fonts/fonticon.eot');
+	src:url('fonts/fonticon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/fonticon.woff') format('woff'),
+		url('fonts/fonticon.ttf') format('truetype'),
+		url('fonts/fonticon.svg#fonticon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -54,7 +54,7 @@ you can use the generic selector below, but it's slower:
 .iconpd-play:before {
 	content: "\f184";
 }
-.iconpd-play-2:before { 
+.iconpd-play-2:before {
 	content: "\e002";
 }
 .iconpd-download:before {
@@ -149,6 +149,6 @@ you can use the generic selector below, but it's slower:
 	content: "\e00d";
 }
 
-.post_toolbar_hits:before { 
+.post_toolbar_hits:before {
 	content: "\e002";
 }

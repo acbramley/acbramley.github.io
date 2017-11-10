@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'addfontsicon';
-	src:url('addfontsicon/fonts/addfontsicon.eot');
-	src:url('addfontsicon/fonts/addfontsicon.eot?#iefix') format('embedded-opentype'),
-		url('addfontsicon/fonts/addfontsicon.woff') format('woff'),
-		url('addfontsicon/fonts/addfontsicon.ttf') format('truetype'),
-		url('addfontsicon/fonts/addfontsicon.svg#addfontsicon') format('svg');
+	src:url('fonts/addfontsicon.eot');
+	src:url('fonts/addfontsicon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/addfontsicon.woff') format('woff'),
+		url('fonts/addfontsicon.ttf') format('truetype'),
+		url('fonts/addfontsicon.svg#addfontsicon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
