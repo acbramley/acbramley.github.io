@@ -361,11 +361,6 @@ overflow: hidden;
    box-sizing:border-box;
 -moz-box-sizing:border-box; /* Firefox */
 -webkit-box-sizing:border-box; /* Safari */
-   background-color:#eeeeee;
-    background:-webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#eeeeee));
-    background:-moz-linear-gradient(top, #f8f8f8, #eeeeee);
-    background:-0-linear-gradient(top, #f8f8f8, #eeeeee);
-    background:linear-gradient(top, #f8f8f8, #eeeeee);
  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8', endColorstr='#eeeeee'); /* IE6,IE7 */
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8', endColorstr='#eeeeee')"; /* IE8 */
     border: 1px solid #cccccc;  box-shadow: 0px 1px 2px rgba(0,0,0,0.1); border-radius: 0; margin: 5px 0px; text-decoration: none !important;}
