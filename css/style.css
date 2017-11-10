@@ -415,7 +415,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
 /*------   leftside-panel start   ------*/
 .rightside-panel ul, .rightside-panel ul li {list-style-type:none; margin:0px;}
 .rightside-panel ul li {border-bottom: 1px solid #f0f0f0; padding: 12px 0;}
-.rightside-panel ul li a {border-left:3px solid #ef5d00; padding-left: 10px; color: #666666; font-weight: 600}
+.rightside-panel ul li a {border-left:3px solid #ef5d00; padding-left: 10px; font-weight: 600}
 /*--------------- add css --------------------*/
 .vcard-panel .btn {text-align:left; margin:3px 0px;}
 .vcard-panel .btn-block {padding:4px 12px;}
