@@ -117,7 +117,7 @@ position: relative;
   padding-top: 20px;
   padding-bottom: 30px;
   font-size: 12px;
-  color:#666666;
+    color: #ffffff;
 }
 .footer a {
   color: #ef5d00;
@@ -472,7 +472,6 @@ filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.date {color:#999999; }
 .ribbon {
     background: none repeat scroll 0 0 #920783;
     color: #FFFFFF;
